@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import UserIcon from "./svgIcons/User";
 import Logo from "./svgIcons/Logo";
 import { makeStyles } from "@material-ui/core/styles";
@@ -20,13 +20,8 @@ const Header = () => {
     width: 200,
   }));
 
-  useEffect(() => {
-    {console.log("3");}
-  }, []);
-
   return (
     <header className={classes.header} >
-      {console.log("2")}
       <Logo viewBox="0 0 608.6 271.5" />
       <NavBox>text here</NavBox>
       <ActionGroup>action group</ActionGroup>

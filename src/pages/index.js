@@ -2,11 +2,11 @@ import React from "react";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
-import ProTip from "../src/ProTip";
+import ProTip from "ProTip";
 import Link from "next/link";
-import Copyright from "../src/Copyright";
-import Layout from "../src/layout";
-import HomeSlider from "../src/components/HomeSlider";
+import Copyright from "Copyright";
+import Layout from "layout";
+import HomeSlider from "components/HomeSlider";
 
 export default function Index() {
   return (
