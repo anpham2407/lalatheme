@@ -17,7 +17,8 @@ export default function GlobalStyle(theme) {
         },
         body: {
           width: '100%',
-          height: '100%'
+          height: '100%',
+          fontFamily: "Mark Pro,sans-serif,'Helvetica Neue',Helvetica,Arial,sans-serif"
         },
         '#root': {
           width: '100%',

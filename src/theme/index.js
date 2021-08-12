@@ -4,6 +4,7 @@ import { ThemeProvider, createTheme, StylesProvider } from '@material-ui/core/st
 import { CssBaseline } from '@material-ui/core';
 import palette from './palette';
 import shadows, { customShadows } from './shadows';
+import typography from './typography';
 import componentsOverride from './overrides';
 
 // ----------------------------------------------------------------------
@@ -15,6 +16,7 @@ ThemeConfig.propTypes = {
 export default function ThemeConfig({ children }) {
   const themeOptions = useMemo(
     () => ({
+      typography,
       palette,
       shadows,
       customShadows
@@ -28,6 +30,7 @@ export default function ThemeConfig({ children }) {
   return (
     <StylesProvider injectFirst>
       <ThemeProvider theme={theme}>
+        {console.log(theme)}
         <CssBaseline />
         {/* <GlobalStyles /> */}
         {children}

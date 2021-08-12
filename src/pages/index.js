@@ -2,13 +2,14 @@ import React from "react";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
-import ProTip from "ProTip";
+import ProTip from "components/ProTip";
 import Link from "next/link";
-import Copyright from "Copyright";
+import Copyright from "components/Copyright";
 import Layout from "layout";
 import HomeSlider from "components/HomeSlider";
 
 export default function Index() {
+  console.log(global && global)
   return (
     <Layout title="title page">
       <Container>
