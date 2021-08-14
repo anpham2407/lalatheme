@@ -9,7 +9,6 @@ import Layout from "layout";
 import HomeSlider from "components/HomeSlider";
 
 export default function Index() {
-  console.log(global && global)
   return (
     <Layout title="title page">
       <Container>

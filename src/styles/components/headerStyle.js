@@ -1,7 +1,7 @@
 const headerStyle = {
   header: {
     display: "flex",
-    padding: '10px 20px'
+    padding: '30px 20px'
   },
   logo: {
     flex: 1,
@@ -10,17 +10,21 @@ const headerStyle = {
       height: 46
     }
   },
-  nav: {
-    color: 'red',
-    '&:hover,&:focus': {
-      color: '#FFFFFF',
-    },
+  nav_menu_top: {
+    display: 'block'
   },
   actionGroup: {
     flex: 1,
     justifyContent: 'flex-end',
     display: 'flex',
   },
+  nav_menu: {
+    margin: 0,
+    padding: 0
+  },
+  level_0: {
+    display: 'inline-block'
+  }
 };
 
 export default headerStyle;

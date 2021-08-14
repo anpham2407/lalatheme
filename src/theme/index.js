@@ -30,7 +30,6 @@ export default function ThemeConfig({ children }) {
   return (
     <StylesProvider injectFirst>
       <ThemeProvider theme={theme}>
-        {console.log(theme)}
         <CssBaseline />
         {/* <GlobalStyles /> */}
         {children}
